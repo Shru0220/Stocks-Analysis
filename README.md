@@ -4,7 +4,6 @@
 
 This project involved collecting and consolidating data, creating key metrics in order to assess the market conditions, volatility, evaluation of risk to make informed trading decisions. Data was pre-processed in Excel and Python along with calculating KPIs and Tableau was utilized for data visualization.
 
-[Image]
 
 ### Objectives
 The primary objectives of this analysis are:
@@ -25,10 +24,10 @@ Folowing KPIs were calculated for dashboard and calculations.
 - **Current Stock Price**: The latest closing price of the stock.
 - **Daily Change (%)**: The daily percentage change to understand current market movement.
 - **Year-to-Date (YTD) Return**: Cumulative return since the beginning of the year to show yearly growth.
-- **Cumulative Return (Since Start Date)**: Shows the total return since the earliest available data.
+- **Cumulative Return (Since Start Date)**: Total return since the earliest available data.
 - **52-Week High/Low**: Highest and lowest closing prices in the past year.
 - **20-Day Volatility**: Rolling standard deviation of daily returns indicating volatility level.
-- **RSI**: Displays the latest RSI value to indicate potential overbought or oversold conditions.
+- **RSI**: RSI(Relative strength Index) value to indicate potential overbought or oversold conditions.
 - **14-Day Average gain/Loss**: Average gains and losses through 14 day window.
 
 
@@ -36,7 +35,7 @@ Folowing KPIs were calculated for dashboard and calculations.
 
 - **Stock Price Over Time** (*Line Chart*):
    - Displays the historical **Close** price for each stock.
-   - Includes overlay for  50-day Moving Averages** to show trends.
+   - Includes overlay for 50-day Moving Averages** to show trends.
    - We can efficiently identify long-term and short-term trends.
 
 - **Cumulative Daily Returns Over Time** (*Line Chart)*:
@@ -47,6 +46,8 @@ Folowing KPIs were calculated for dashboard and calculations.
    - This area chart displays trading volume over time, with spikes indicating higher trading activity.
    - It helps to Identify time durations and periods of high buying or selling of stock.
 
+![Stocks_chart_1](https://github.com/user-attachments/assets/56bf34e9-e088-445d-a7b6-26774897a5dc)
+
 - **Price vs. Volume** *(Line and Bar Chart)*:
    - Dual-axis chart with **Close Price** as a line and **Volume** as bars.
    - It helps to undertand the correlation between price and volume changes.
@@ -54,6 +55,10 @@ Folowing KPIs were calculated for dashboard and calculations.
 - **Relative Strength Index (RSI)** *(Line Chart*):
    - Shows reference lines at **30** (oversold) and **70** (overbought).
    - It indicates potential buying and selling points based on RSI thresholds.
+
+
+![Screenshot 2024-11-14 184406](https://github.com/user-attachments/assets/6729e655-4b8b-498a-9948-73b73bb34238)
+
 
 - **Volatility** *(Rolling Standard Deviation)*:
    - Line chart showing 20-day volatility.
