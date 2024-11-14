@@ -15,7 +15,7 @@ The primary objectives of this analysis are:
 - **Data Aggregation**: Using Python, the individual csv files were merged into a single dataset, creating a structured file for analysis.
 - **Data Cleaning and Transformation**:
    - **Python** was used to calculate daily metrics like **Daily Returns** and **Cumulative Returns**.
-   - **Excel** was used to further prepare derived columns for technical indicators such as **20-day and 50-day Moving Averages**, **   Gain**, **Loss**, **Volatality** and **Relative Strength Index (RSI)**.
+   - **Excel** was used to further prepare derived columns for technical indicators such as **20-day and 50-day Moving Averages**, **Gain**, **Loss**, **Volatality** and **Relative Strength Index (RSI)**.
 
 
 ### Key Performance Indicators (KPIs)
